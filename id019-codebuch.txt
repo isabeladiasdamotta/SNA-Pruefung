@@ -1,7 +1,5 @@
 CODEBUCH,
-"Im Codebuch definieren Sie, wie und nach welchen Kriterien erfasst werden.",
-Achtung: das Codebuch wird immer als eigene Datei in Github gesetzt. Beispiel siehe hier.,
-Wert,Kommentar
+
 edgelist,
 from,definiert den Sender in gerichteten Netzwerken. 
 to ,definiert den Empfänger in ungerichteten Netzwerken. Entspricht ID in der Nodelist. 
