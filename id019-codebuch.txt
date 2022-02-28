@@ -12,7 +12,7 @@ Das Netzwerk ist ein gerichtetes two-mode Netzwerk.
 
 **id**  
 (eindeutige Codierung des Knoten)   
-codiert von 1 bis 188, jede ID entspricht einem Abgeordneten/Verein/Organisation/Ministerium/etc. 
+codiert von 1 bis 196, jede ID entspricht einem Abgeordneten/Verein/Organisation/Ministerium/etc. 
 
 **relation**
 Beziehungsart zwischen den Abgeordneten und Organisationen/Vereinen/Ministerien/etc.   
@@ -32,7 +32,7 @@ numerisch codiert, bezieht sich auf das Jahr, in dem die Variable relationship e
 # NODE-Attribute  
   
 **id**  
-Identische ID wie aus der edgelist zur Identifikation der Knoten von 1 bis 38.
+Identische ID wie aus der edgelist zur Identifikation der Knoten von 1 bis 196.
 
 **name_short**
 Nachname
