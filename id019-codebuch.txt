@@ -64,9 +64,9 @@ höchster Bildungsabschluss
 
 **party**
 Parteizugehörigkeit 
-1 = SPD 
-2 = FDP
-3 = Die Grünen
+SPD 
+FDP
+Gruenen
 
 **religion**
 1 = röm.-katholisch 
