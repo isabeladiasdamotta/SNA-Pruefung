@@ -1,13 +1,13 @@
 id,name_short,name,type,sex,birth,position,education,subject,party,religion,kids,twitter,instagram,facebook,youtube
-1,Brantner,Franziska Brantner,0,1,1979,Staatssekretaer:in,3,Politik,3,,1,14200,4527,3422,27
-2,Toncar,Florian Toncar,0,2,1979,Staatssekretaer:in,3,Jura,2,2,3,8632,3088,855,98
-3,SchwarzeluehrSuetter,Rita Schwarzeluehr Suetter,0,1,1962,Staatssekretaer:in,4,BWL,1,1,2,4264,1552,2945,
-4,Lindner,Tobias Lindner,0,2,1982,Minister:in,3,VWL,3,,,11000,3704,4919,
-5,Strasser,Benjamin Strasser,0,2,1987,Staatssekretaer:in,4,Jura,2,1,,5870,4032,3368,291
-6,Oezdemir,Cem Oezdemir,0,2,1965,Minister:in,4,Sozialpaedagogie,3,,2,326300,108000,162590,
-7,Theurer,Michael A Theurer,0,2,1967,Staatssekretaer:in,4,VWL,2,2,2,8529,3758,27906,
-8,Kuehn,Christian Kuehn,0,2,1979,Staatssekretaer:in,1,Politik und Soziologie,3,2,3,4869,1673,104,35
-9,Brandenburg,Jens Brandenburg,0,2,1986,Staatssekretaer:in,3,Politik und VWL,2,,,5461,3361,4570,
+1,Brantner,Franziska Brantner,0,1,1979,Staatssekretaerin,3,Politik,3,,1,14200,4527,3422,27
+2,Toncar,Florian Toncar,0,2,1979,Staatssekretaer,3,Jura,2,2,3,8632,3088,855,98
+3,SchwarzeluehrSuetter,Rita Schwarzeluehr Suetter,0,1,1962,Staatssekretaerin,4,BWL,1,1,2,4264,1552,2945,
+4,Lindner,Tobias Lindner,0,2,1982,Minister,3,VWL,3,,,11000,3704,4919,
+5,Strasser,Benjamin Strasser,0,2,1987,Staatssekretaer,4,Jura,2,1,,5870,4032,3368,291
+6,Oezdemir,Cem Oezdemir,0,2,1965,Minister,4,Sozialpaedagogie,3,,2,326300,108000,162590,
+7,Theurer,Michael A Theurer,0,2,1967,Staatssekretaer,4,VWL,2,2,2,8529,3758,27906,
+8,Kuehn,Christian Kuehn,0,2,1979,Staatssekretaer,1,Politik und Soziologie,3,2,3,4869,1673,104,35
+9,Brandenburg,Jens Brandenburg,0,2,1986,Staatssekretaer,3,Politik und VWL,2,,,5461,3361,4570,
 10,ESCO,European Studies Centre St Antonys College Oxford,1,,,,,,,,,,,,
 11,UNIFEM,UN Frauenrechtsorganisation,1,,,,,,,,,,,,
 12,frR,franzoesischen Ratspraesidentschaft,1,,,,,,,,,,,,
