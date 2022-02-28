@@ -1,0 +1,90 @@
+# Datensatz Spaetzle Connection Regierung Scholz #
+Codebuch Stand 2022-02
+erstellt von Isabela Dias da Motta (id019@hdm-stuttgart.de)
+
+## Ursprung und Datenerhebung
+Ich habe den Datensatz aus der Seite des Bundestags, Abgeordnetenwatch, sowie den entsprechen Wikipedia-Einträgen, Homepages und Sozialen-Kanälen der Abgeordneten
+erhoben. 
+
+Das Netzwerk ist ein gerichtetes two-mode Netzwerk. 
+
+# EDGE-Attribute
+
+**id**  
+(eindeutige Codierung des Knoten)   
+codiert von 1 bis 188, jede ID entspricht einem Abgeordneten/Verein/Organisation/Ministerium/etc. 
+
+**relation**
+Beziehungsart zwischen den Abgeordneten und Organisationen/Vereinen/Ministerien/etc.   
+1 = Ministerium: Regierung umfasst auch Staatsekretäre und das Bundeskanzleramt, etc. hier sollte als Knoten das entsprechende Ministerium angegeben werden.  
+2 = politische Funktionen: aktuelle und ehemalige politische Funktionen in politischen Ausschüssen, Gremien und der Partei. etc. Das können auch frühere
+Stationen gewesen sein, z.B. Geschäftsführer:in einer Partei, etc.  
+3 =  Ehrenamt: umfasst alle Mitgliedschaften in NGOs, Stiftungen, Gedenkstätten, etc: werden im Bundestagsprofil als Körperschaften öffentlichen Rechts bezeichnet.
+4 = Unternehmen und Aufsichtsräte: Beteiligung an Unternehmen durch Mandate, etwa Aufsichtsratsmandate, Gremien, etc.
+5 = Stipendien: erhalten Stipendien (egal wann), etwa Deutsche Studienstiftung, Parteinahe Stiftungen, Internationale Organisationen im In- und Ausland etc.
+6 = Berufstätigkeiten: ausgeübte Berufstätigkeiten, falls vorhanden
+7 = Studienort in In- und Ausland: Studien- bzw. (längere) Aufenthaltsort(e) in In- und Ausland
+
+**year**
+numerisch codiert, bezieht sich auf das Jahr, in dem die Variable relationship erhoben wurde
+
+
+# NODE-Attribute  
+  
+**id**  
+Identische ID wie aus der edgelist zur Identifikation der Knoten von 1 bis 38.
+
+**name_short**
+Nachname
+
+**name** 
+Vollständige Name
+
+**type**
+0 = Person
+1 = Organisation/Ort/Verband etc.
+
+**sex**     
+1 = weiblich  
+2 = männlich  
+3 = divers
+  
+**birth**
+Geburtsjahr, numerisch codiert
+
+**position**
+jetzige Position, z.B. Staatssekretär:in, Minister:in
+
+**education**
+höchster Bildungsabschluss 
+1 = Bachelor
+2 = Master
+3 = Doktor/promoviert 
+4 = Diplom/Examen
+
+**party**
+Parteizugehörigkeit 
+1 = SPD 
+2 = FDP
+3 = Die Grünen
+
+**religion**
+1 = röm.-katholisch 
+2 = evangelisch
+
+**kids**
+Anzahl der Kinder, numerisch codiert
+
+**twitter**
+Anzahl Follower, numerisch codiert
+
+**instagram**
+Anzahl Follower, numerisch codiert
+
+**facebook**
+Anzahl Follower, numerisch codiert
+
+**youtube**
+Anzahl Abonnenten, numerisch codiert
+
+##
